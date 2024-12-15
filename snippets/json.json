@@ -2,6 +2,34 @@
     "string": {
         "prefix": "string",
         "body": ["\"${1:key}\": \"${2:value}\","],
-        "description": "Insert a new string",
+        "description": "Insert a new string"
+    },
+    "object": {
+        "prefix": "object",
+        "body": [
+            "\"${1:object}\": {",
+            "\t\"${2:key}\": \"${3:value}\"",
+            "},"
+        ],
+        "description": "Inserts a new object"
+    },
+    "array": {
+        "prefix": "array",
+        "body": [
+            "\"${1:key}\": [",
+            "\t\"${2:object}\"",
+            "],"
+        ],
+        "description": "Inserts a new array"
+    },
+    "number": {
+        "prefix": "number",
+        "body": ["\"${1:key}\": ${2:number},"],
+        "description": "Inserts a new number"
+    },
+    "boolean": {
+        "prefix": "boolean",
+        "body": ["\"${1:key}\": ${2:boolean},"],
+        "description": "Inserts a new boolean"
     }
 }
