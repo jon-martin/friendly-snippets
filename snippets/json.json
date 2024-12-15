@@ -1,0 +1,7 @@
+{
+    "string": {
+        "prefix": "string",
+        "body": ["\"${1:key}\": \"${2:value}\","],
+        "description": "Insert a new string",
+    }
+}

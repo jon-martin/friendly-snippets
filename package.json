@@ -250,6 +250,10 @@
                 "path": "./snippets/javascript/jsdoc.json"
             },
             {
+                "language": "json",
+                "path": "./snippets/json.json"
+            },
+            {
                 "language": "tsdoc",
                 "path": "./snippets/javascript/tsdoc.json"
             },
